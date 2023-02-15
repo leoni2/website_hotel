@@ -1,0 +1,337 @@
+body  { background-color: whitesmoke;
+margin: 0;
+padding: 0; 
+
+}
+
+@font-face {
+    font-family: 'dating_historiablack';
+    src: url('schriften/datinghistoria-black-webfont.woff2') format('woff2'),
+         url('schriften/datinghistoria-black-webfont.woff') format('woff'),
+         url('schriften/datinghistoria-black-webfont.ttf') format('truetype'),
+         url('schriften/datinghistoria-black-webfont.svg#dating_historiablack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('schriften/caviardreams-webfont.eot');
+    src: url('schriften/caviardreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('schriften/caviardreams-webfont.woff2') format('woff2'),
+         url('schriften/caviardreams-webfont.woff') format('woff'),
+         url('schriften/caviardreams-webfont.ttf') format('truetype'),
+         url('schriften/caviardreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p {color:black;
+    font-size: 20px;
+    text-align: justify;
+    font-family:'montserratthin';
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top:110px;}
+   
+    ul { font-family: 'caviar_dreamsregular'}
+
+
+
+a:link {
+    color:black;
+    }
+    /* visited link */
+    a:visited {
+    color: black;
+    }
+    /* mouse over link */
+    a:hover {
+    color:burlywood;
+    }
+
+    a:active {
+    color:black;
+    }
+
+.container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 0;
+    display: flex;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 0;
+}
+
+
+   
+.text {
+    color:white;
+    font-size: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family:  'dating_historiablack';
+}
+
+table {
+    
+    font-size: 20px;
+    text-align: center;
+    font-family: 'dating_historiablack';
+    width:95%;
+}
+
+.bildzumtext img {
+    box-align: right;
+    width: auto;
+    height: 1000px;
+
+}
+
+
+
+  
+.blocksatz {float: left;
+        color:black;
+        font-size: 20px;
+        text-align: justify;
+        font-family: 'caviar_dreamsregular' ;
+        margin-left: 200px;
+        margin-right: 100px;
+        margin-top: 10 px;
+       }
+
+.blocksatz img{
+    float: right;
+    box-align: right;
+    width: 500px;
+    height: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    
+}
+
+h3 {float: left;
+    color:black;
+    font-size: 25px;
+    text-align: justify;
+    font-family:  'dating_historiablack';
+    margin-left: 200px;
+    margin-right: 100px;margin-top: 50px;
+   }
+    
+.tabelle_2 img
+  {   
+    width: auto;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 200px;
+ 
+}
+.tabelle_2
+{
+   color:black;
+    font-size: 10px;
+    text-align: justify;
+    font-family:'caviar_dreamsregular';
+ 
+  
+    
+}
+.tabelle_2 table
+{
+  
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'montserratthin';
+    
+ }
+.tabelle_2 p
+{
+    float: right;
+    color:black;
+    font-size: 20px;
+    text-align: justify;
+    font-family:'caviar_dreamsregular';
+     margin-left: 140px;
+     float: left;
+     margin-right: 100px;
+      
+ }
+ .info_box {
+    background: black;
+    color: white;
+    padding: 10px;
+    text-align: justify;
+    font-family:'caviar_dreamsregular';
+    font-size: 10px;
+    margin-top: 200px;
+}
+
+
+
+.raume table {
+    margin-top: 200px;
+    color:black;
+   
+   
+    
+}
+.raume img {
+    width:300px;
+    margin-left: 100px;
+}
+.raume p {float: right;
+    color:black;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'caviar_dreamsregular';
+    margin-left: 100px;
+    margin-right: 100px;
+     float: left;
+    
+
+}
+
+
+
+
+.aktivitäten img {
+    width: 500px;
+    height: auto;
+    margin-right: 100px;
+    margin-top:100px;
+}
+.aktivitäten ul {
+    color:black;
+    text-align: left;
+    font-family: 'caviar_dreamsregular';
+    margin-left: 200px;
+    margin-top:100px;
+   
+}
+
+.imagebox img {
+    width: 200px;
+    height: auto;
+    margin-top: 100px;
+
+}
+    
+.imagebox p { font-family: 'caviar_dreamsregular';}
+   .anfahrt img{
+    width: 700px;
+    height: auto;
+
+
+   } 
+.anfahrt table {
+    margin-top: 100px;
+}
+
+.anfahrt p{
+    font-family: 'caviar_dreamsregular';
+
+}
+
+
+
+
+
+
+
+
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background:black;
+  text-align: center;
+  font-family: 'caviar_dreamsregular';
+}
+
+
+.month ul {
+  margin: 0;
+  padding: 0;
+  font-family:'caviar_dreamsregular';
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-family: 'caviar_dreamsregular';
+}
+
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+  font-family: 'caviar_dreamsregular';
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+  font-family: 'caviar_dreamsregular';
+}
+
+
+.days {
+  padding: 10px 0;
+  background: rgb(255, 255, 255);
+  margin: 0;
+  font-family: 'caviar_dreamsregular';
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color:black;
+  font-family: 'caviar_dreamsregular';
+}
+
+
+
+
+
+.kalenderauswahl p{
+    text-align: left;
+    margin-left:10px;
+    margin-top: 20px;
+    font-family: 'caviar_dreamsregular';
+}
+.kalenderauswahl h1 {
+    text-align: left;
+    font-size: 15px;
+    margin-left: 10px;
+    font-family:  'dating_historiablack' ;
+
+}
+
+
+.info_box a{ 
+    color: white;
+}
